@@ -17,8 +17,7 @@ class MyServer {
 
             String str = "";
             String response = "";
-
-            // Server listens for messages from the client and responds
+            
             while (!str.equals("bye")) {
                 str = din.readUTF();
                 System.out.println("Client says: " + str);
