@@ -18,7 +18,7 @@ class MyClient {
                 response = din.readUTF();
                 System.out.println("Server says: " + response);
             }
-
+            
             cs.close();
         } catch (Exception e) {
             System.err.print(e);
